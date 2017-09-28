@@ -73,7 +73,7 @@ each one of the other modules](http://en.wikipedia.org/wiki/Coupling_(computer_p
 
 If making a change in one module in your application requires you to change another module,
 then coupling exists. For instance, you instantiate objects in your
-constructor's class instead of passing instances as arguments. That is bad because
+class' constructor instead of passing instances as arguments. That is bad because
 it **doesn't allow further changes** such as replacing the instance by an instance
 of a sub-class, a _mock_ or whatever.
 
